@@ -92,7 +92,7 @@ if __name__ == '__main__':
             is_valid = True
             with st.spinner(text='资源加载中...'):
                 st.sidebar.video(uploaded_file)
-                with open(os.path.join("data", "videos", uploaded_file.name), "wb") as f:
+                with open(os.path.join("yolov5-streamlit-main/data", "videos", uploaded_file.name), "wb") as f:
                     f.write(uploaded_file.getbuffer())
                 opt.source = f'yolov5-streamlit-main/data/videos/{uploaded_file.name}'
         else:
