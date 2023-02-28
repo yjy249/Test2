@@ -61,7 +61,7 @@ if __name__ == '__main__':
                         help='augmented inference')
     parser.add_argument('--update', action='store_true',
                         help='update all models')
-    parser.add_argument('--project', default='runs/detect',
+    parser.add_argument('--project', default='yolov5-streamlit-main/runs/detect',
                         help='save results to project/name')
     parser.add_argument('--name', default='exp',
                         help='save results to project/name')
