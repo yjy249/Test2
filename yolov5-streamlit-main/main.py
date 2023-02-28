@@ -36,7 +36,7 @@ if __name__ == '__main__':
     parser.add_argument('--weights', nargs='+', type=str,
                         default='weights/yolov5s.pt', help='model.pt path(s)')
     parser.add_argument('--source', type=str,
-                        default='data/images', help='source')
+                        default='yolov5-streamlit-main/data/images', help='source')
     parser.add_argument('--img-size', type=int, default=640,
                         help='inference size (pixels)')
     parser.add_argument('--conf-thres', type=float,
