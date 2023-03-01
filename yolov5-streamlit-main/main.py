@@ -25,7 +25,7 @@ def get_detection_folder():
     '''
         Returns the latest folder in a runs\detect
     '''
-    return max(get_subdirs(os.path.join('runs', 'detect')), key=os.path.getmtime)
+    return max(get_subdirs(os.path.join('yolov5-streamlit-main/runs', 'detect')), key=os.path.getmtime)
 
 
 if __name__ == '__main__':
